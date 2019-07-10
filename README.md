@@ -9,3 +9,4 @@ This is a place I've committed to record interesting things I learn about develo
 * When you open a file with vim, a `.swp` suffixed copy is created that represents unsaved changes. It won't be cleaned up if vim exits abnormally.
 * Delete the entire contents of a file with vim: `ggdG`
 * Move lines vertically with vim: `:m+` and `:m-2`
+* docker-compose.*.yml files can be stacked in varying combinations to achieve different environments. [Relevant Article](https://medium.com/vteam/configure-docker-project-for-different-environments-using-docker-compose-3-bfbef37d951c)
