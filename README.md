@@ -10,3 +10,6 @@ This is a place I've committed to record interesting things I learn about develo
 * Delete the entire contents of a file with vim: `ggdG`
 * Move lines vertically with vim: `:m+` and `:m-2`
 * docker-compose.*.yml files can be stacked in varying combinations to achieve different environments. [Relevant Article](https://medium.com/vteam/configure-docker-project-for-different-environments-using-docker-compose-3-bfbef37d951c)
+
+### July 11, 2019
+* Certbot's github features preferred [nginx config](https://raw.githubusercontent.com/certbot/certbot/master/certbot-nginx/certbot_nginx/options-ssl-nginx.conf) for SSL encrypted web service. Developers can include this in their nginx config via the [include directive](https://raw.githubusercontent.com/certbot/certbot/master/certbot-nginx/certbot_nginx/options-ssl-nginx.conf).
