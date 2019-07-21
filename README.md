@@ -16,3 +16,9 @@ This is a place I've committed to record interesting things I learn about develo
 
 ### July 16, 2019
 * In Javascript, the `new` keyword can be used on any function to treat it as a constructor. By assigning properties to `this` inside the function, you'll return an object with methods that can affect one another without having to use the `class` keyword.
+
+### July 18, 2019
+* When using the linux `ssh` and `sftp` commands, you can use the `-b` flag to indicate a batchfile that to execute your remote commands.
+
+### July 19, 2019
+* `rsync` is a great alternative to `sftp` in many cases, because it will only transfer files that don't already exist, and can delete files that have been removed in the transfer source.
