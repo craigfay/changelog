@@ -32,3 +32,4 @@ This is a place I've committed to record interesting things I learn about develo
 * `git stash --include-untracked` will eliminate untracked changes in your git repo`.
 * [Data Attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) in the DOM can be accessed in Javascript with the syntax `element.dataset.<suffix>`, and in CSS with `attr(data-<suffix>)`.
 * Brushing up occasionally on [HTML Color Values](https://www.w3schools.com/colors/colors_hex.asp) goes a long way for quick prototyping.
+* `element.offsetTop` can be used to calculate the number of items in a flexbox row. [See my an example](https://codepen.io/craigfay/pen/dxXGZO)
