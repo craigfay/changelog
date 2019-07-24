@@ -30,3 +30,4 @@ This is a place I've committed to record interesting things I learn about develo
 * To reset a remote git branch to a previous commit: `git reset --hard <commit-hash> && git push -f origin`
 * [git reflog](https://www.atlassian.com/git/tutorials/rewriting-history/git-reflog) is useful for seeing when references were updated in the local repo. It's often a good resource for rewriting git history.
 * `git stash --include-untracked` will eliminate untracked changes in your git repo`.
+* [Data Attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) in the DOM can be accessed in Javascript with the syntax `element.dataset.<suffix>`, and in CSS with `attr(data-<suffix>)`.
