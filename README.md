@@ -26,3 +26,4 @@ This is a place I've committed to record interesting things I learn about develo
 ### July 24, 2019
 * [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) are currently supported by all major browsers. The formal term for them is "Custom Properties".
 * Redis keys typically use "." or ":" for namespacing, e.g. `products.72.units_sold`, or `employees:17:salary`.
+* To reset a remote git branch to a previous commit: `git reset --hard <commit-hash> && git push -f origin`
