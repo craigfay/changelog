@@ -29,4 +29,4 @@ This is a place I've committed to record interesting things I learn about develo
 * Redis can store many types of values, not just strings. Commands like `ADD` have many counterparts like `ZADD` that correspond to different value types.
 * To reset a remote git branch to a previous commit: `git reset --hard <commit-hash> && git push -f origin`
 * [git reflog](https://www.atlassian.com/git/tutorials/rewriting-history/git-reflog) is useful for seeing when references were updated in the local repo. It's often a good resource for rewriting git history.
-* 
+* `git stash --include-untracked` will eliminate untracked changes in your git repo`.
