@@ -41,3 +41,6 @@ This is a place I've committed to record interesting things I learn about develo
 * Webkit is one of many HTML/CSS rendering engines. As of 2019, Opera, Chrome, and Microsoft have all anounced usage of [Blink](https://en.wikipedia.org/wiki/Blink_(browser_engine)), an engine based on Webkit.
 * CSS properties prefixed with `-webkit-`, etc.. are indicating that the rule is only to be used by a specific engine.
 * Node JS doesn't exit the process with code `1` when errors are thrown. This seems intutitive, but it's important because automated pipelines typically require a non-zero exit to indicate failure.
+
+### July 30, 2019
+* You can run one-off commands from docker-compose.yml files with `docker-compose run <service> <command>`
