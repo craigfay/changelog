@@ -47,3 +47,6 @@ This is a place I've committed to record interesting things I learn about develo
 * Services defined in `docker-compose.yml` can use a `working_dir` attribute. This eliminates my need to use `Dockerfile` in conjunction with `docker-compose.yml` in several cases.
 * In JS, you can use `Object.create()` to make an object with a null prototype. This means that it won't have any properties of default objects, making it a candidate for a [cache-like object](https://www.bennadel.com/blog/2797-creating-objects-with-a-null-prototype-in-node-js.htm).
 * In ES6, you can [extend functions with classes](https://stackoverflow.com/questions/36871299/how-to-extend-function-with-es6-classes), and have a function as the result of a constructor.
+
+### July 31, 2019
+* A key consists of a modulus and an exponent. Both the public and private key use the same modulus, what differs is the exponent. To encrypt (or decrypt) you take your message, raise it to the power of the exponent, divide the modulus, and the remainder is your encrypted (or decrypted) answer. [Source](https://crypto.stackexchange.com/questions/40362/the-relationship-between-a-private-and-public-key)
