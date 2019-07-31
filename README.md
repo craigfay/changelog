@@ -59,3 +59,4 @@ This is a place I've committed to record interesting things I learn about develo
 * Any npm script named with prefix "pre" or "post" will run before/after their corresponding command reference.
 * Increment a package's version with `npm version` and `major`, `minor` or `patch`.
 * Remove untracked git files with `git clean -f`. Preview files to be removed with `git clean -n`.
+* Git allows [command aliasing](https://koukia.ca/personalizing-git-aliasing-commands-4dda73b54081).
