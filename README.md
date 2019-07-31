@@ -54,3 +54,4 @@ This is a place I've committed to record interesting things I learn about develo
 
 ### August, 1 2019
 * You can run `npm install` in a different directory with the `--prefix` flag: `npm --prefix ./src install`
+* See available npm scripts with `npm run`
