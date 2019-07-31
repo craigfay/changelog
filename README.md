@@ -57,3 +57,4 @@ This is a place I've committed to record interesting things I learn about develo
 * See available npm scripts with `npm run`
 * See npm package dependencies with `npm ls --depth 0`
 * Any npm script named with prefix "pre" or "post" will run before/after their corresponding command reference.
+* Increment a package's version with `npm version` and `major`, `minor` or `patch`.
