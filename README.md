@@ -56,3 +56,4 @@ This is a place I've committed to record interesting things I learn about develo
 * You can run `npm install` in a different directory with the `--prefix` flag: `npm --prefix ./src install`
 * See available npm scripts with `npm run`
 * See npm package dependencies with `npm ls --depth 0`
+* Any npm script named with prefix "pre" or "post" will run before/after their corresponding command reference.
