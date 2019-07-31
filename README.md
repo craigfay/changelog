@@ -51,3 +51,6 @@ This is a place I've committed to record interesting things I learn about develo
 ### July 31, 2019
 * A key consists of a modulus and an exponent. Both the public and private key use the same modulus, what differs is the exponent. To encrypt (or decrypt) you take your message, raise it to the power of the exponent, divide the modulus, and the remainder is your encrypted (or decrypted) answer. [Source](https://crypto.stackexchange.com/questions/40362/the-relationship-between-a-private-and-public-key)
 * Creating HTTP Redirects is just as simple as using the right status code and adding a "location" header.
+
+### August, 1 2019
+* You can run `npm install` in a different directory with the `--prefix` flag: `npm --prefix ./src install`
