@@ -4,6 +4,7 @@ This is a place I've committed to record interesting things I learn about develo
 ### August 2, 2019
 * Pairing the `ts-node` module with `nodemon` can allow you to watch for file changes, while also never needing to build TypeScript modules. Use the `exec`, `ext`, and `watch` properties of `nodemon.json` to accomplish this.
 * In Javascript, you can create a unique hash using `(+new Date()).toString(36)`. This doesn't guarantee uniqueness when parallel processes are using it.
+* Hashes with short keys and values will be stored in a serialized manner inside Redis.
 
 ### August 1, 2019
 * You can run `npm install` in a different directory with the `--prefix` flag: `npm --prefix ./src install`
