@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### August 7, 2019
+* nodejs.org has an excellent recap of [HTTP Transactions in Node](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/). This is extremely helpfulfor anyone working with the built in `http` module.
+
 ### August 3, 2019
 * By default GET requests are cacheable if there are no parameters present in the URL, a POST is not.
 
