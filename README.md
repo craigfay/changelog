@@ -2,7 +2,7 @@
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
 ### August 7, 2019
-* nodejs.org has an excellent recap of [HTTP Transactions in Node](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/). This is extremely helpfulfor anyone working with the built in `http` module.
+* nodejs.org has an excellent recap of [HTTP Transactions in Node](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/). This is extremely helpful for anyone working with the built in `http` module.
 * Node's `util.promisify()` will work on any function that has a callback function as its last argument if the callback accepts arguments `err, data`.
 * "[Streams](https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/) are Node's best and most misunderstood idea." - Dominic Tarr
 
