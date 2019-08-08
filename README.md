@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 ### August 8, 2019
 * In Javascript, `null` can be more appropriate than `undefined` as a value on an object, because `undefined` will make the object appear not to have the property that it represents.`
+* In VSCode, you can toggle between the editor and file explorer with SHIFT CMD E.
 
 ### August 7, 2019
 * nodejs.org has an excellent recap of [HTTP Transactions in Node](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/). This is extremely helpful for anyone working with the built in `http` module.
