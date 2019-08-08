@@ -6,6 +6,7 @@ This is a place I've committed to record interesting things I learn about develo
 * In VSCode, you can toggle between the editor and file explorer with `SHIFT CMD E`.
 * In Vim, `SHIFT H` and `SHIFT L` navigate to the top and bottom of the document.
 * In Vim, `SHIFT J` pulls the next line onto the end of the current line.
+* [Session fixation](https://en.wikipedia.org/wiki/Session_fixation) attacks attempt to exploit the vulnerability of a system that allows one person to fixate (find or set) another person's session identifier.
 
 ### August 7, 2019
 * nodejs.org has an excellent recap of [HTTP Transactions in Node](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/). This is extremely helpful for anyone working with the built in `http` module.
