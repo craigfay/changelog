@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### August 9, 2019
+* "Idempotency" describes an action that can be performed repeatedly and never perform different results. HTTP GET requests are expected to be idempotent.
+
 ### August 8, 2019
 * In Javascript, `null` can be more appropriate than `undefined` as a value on an object, because `undefined` will make the object appear not to have the property that it represents.`
 * In VSCode, you can toggle between the editor and file explorer with `SHIFT CMD E`.
