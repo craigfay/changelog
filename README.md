@@ -4,6 +4,7 @@ This is a place I've committed to record interesting things I learn about develo
 ### August 9, 2019
 * "Idempotency" describes an action that can be performed repeatedly and never perform different results. HTTP GET requests are expected to be idempotent.
 * In Chrome, `OPTION CMD U` (on MacOS) will view page source.
+* In the Chrome Javascript Console, the variable `$0` refers to the last element you've selected in the "Elements" tab.
 
 ### August 8, 2019
 * In Javascript, `null` can be more appropriate than `undefined` as a value on an object, because `undefined` will make the object appear not to have the property that it represents.`
