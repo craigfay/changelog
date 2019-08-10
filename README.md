@@ -5,6 +5,7 @@ This is a place I've committed to record interesting things I learn about develo
 * In Vim, `so %` will source the current file.
 * In Vim, using `n` will allow you to move to the next search result.
 * In Vim's normal mode, `.` will refer to the last command.
+* In Vim's normal mode, `zz` will bring the current line to the center of the screen.
 
 ### August 9, 2019
 * "Idempotency" describes an action that can be performed repeatedly and never perform different results. HTTP GET requests are expected to be idempotent.
