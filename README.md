@@ -1,6 +1,10 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### August 10, 2019
+* In Vim, `so %` will source the current file.
+* In Vim, using `n` will allow you to move to the next search result
+
 ### August 9, 2019
 * "Idempotency" describes an action that can be performed repeatedly and never perform different results. HTTP GET requests are expected to be idempotent.
 * In Chrome, `OPTION CMD U` (on MacOS) will view page source.
