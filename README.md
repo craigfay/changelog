@@ -1,6 +1,13 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### August 11, 2019
+* In Vim's normal mode, `:e.` will open the file explorer, where you can use `/` to search.
+* In Vim's normal mode, `:bp`will open the previously opened buffer.
+* In Vim's file explorer , `d`  create directories.
+* In Vim's file explorer , `%` will create a new file.
+* In Vim's file explorer , `D` will delete files/directories.
+
 ### August 10, 2019
 * In Vim, `so %` will source the current file.
 * In Vim, using `n` will allow you to move to the next search result.
