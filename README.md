@@ -1,6 +1,14 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### August 12, 2019
+  * In Javascript, es6 allows for dynamic property names:
+      ```JS
+      const obj = {
+              [ isDog ? "dog" : "cat" ]: 'Rover'
+      }
+     ```
+
 ### August 11, 2019
 * In Vim's normal mode, `:e.` will open the file explorer, where you can use `/` to search.
 * In Vim's normal mode, `:bp`will open the previously opened buffer.
