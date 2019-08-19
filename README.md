@@ -12,7 +12,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 ### August 18, 2019
 * GraphQL has its own type language that’s used the write GraphQL schemas: The [Schema Definition Language](https://blog.graph.cool/graphql-sdl-schema-definition-language-6755bcb9ce51)  (SDL)
-* GraphQL has a clear separation between structure and behavior. Each field in a GraphQL schema is backed by a resolver.
+* GraphQL has a clear separation between structure and behavior. Each field in a GraphQL schema is backed by a resolver function, which determines how queries are fulfilled.
 * An RPC-style (Remote Procedure Call) system is one where requesters can trigger functions remotely.
 * GraphQL requests almost always succeed with a 200 even if no data was returned. Instead of HTTP error codes, they track the number of the exceptions per query.
 
