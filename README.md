@@ -8,6 +8,7 @@ This is a place I've committed to record interesting things I learn about develo
 * [Abramov says](https://medium.com/@dan_abramov/youre-missing-the-point-of-react-a20e34a51e1a): React's true strength is not the Virtual DOM, but instead, composition, unidirection data flow, freedom from DSLs, explicit mutation, and static mental model.
 * [Surge](https://surge.sh) is a great free host for static content.
 * Robin Weiruch's detailed guide to [fetching data with React Hooks](https://www.robinwieruch.de/react-hooks-fetch-data/)
+* Dan's [complete guide to useEffect()](https://overreacted.io/a-complete-guide-to-useeffect/) (React Hooks)
 
 ### August 18, 2019
 * GraphQL has its own type language that’s used the write GraphQL schemas: The [Schema Definition Language](https://blog.graph.cool/graphql-sdl-schema-definition-language-6755bcb9ce51)  (SDL)
