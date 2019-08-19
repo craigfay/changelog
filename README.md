@@ -3,6 +3,8 @@ This is a place I've committed to record interesting things I learn about develo
 
 ### August 19, 2019
 * You should always keep your Authorization logic outside of your GraphQL reolvers. Instead, make calls to your business logic layer.
+* Don't make classes your public API. Instead, use factory functions. This will keep people from inheriting from them.
+* Instead of instanceof checks, assert the existence of the methods you plan to use, and trust the user to do the right thing.
 
 ### August 18, 2019
 * GraphQL has its own type language that’s used the write GraphQL schemas: The [Schema Definition Language](https://blog.graph.cool/graphql-sdl-schema-definition-language-6755bcb9ce51)  (SDL)
