@@ -5,6 +5,7 @@ This is a place I've committed to record interesting things I learn about develo
 * You should always keep your Authorization logic outside of your GraphQL reolvers. Instead, make calls to your business logic layer.
 * Don't make classes your public API. Instead, use factory functions. This will keep people from inheriting from them.
 * Instead of instanceof checks, assert the existence of the methods you plan to use, and trust the user to do the right thing.
+* [Abramov says](https://medium.com/@dan_abramov/youre-missing-the-point-of-react-a20e34a51e1a): React's true strength is not the Virtual DOM, but instead, composition, unidirection data flow, freedom from DSLs, explicit mutation, and static mental model.
 
 ### August 18, 2019
 * GraphQL has its own type language that’s used the write GraphQL schemas: The [Schema Definition Language](https://blog.graph.cool/graphql-sdl-schema-definition-language-6755bcb9ce51)  (SDL)
