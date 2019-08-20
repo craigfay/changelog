@@ -4,6 +4,7 @@ This is a place I've committed to record interesting things I learn about develo
 ### August 20, 2019
 * Node.js has a variety of issues with high-performance compression, where increased concurrency, especially on Linux, can lead to [catastrophic memory fragmentation](https://github.com/nodejs/node/issues/8871) and slow performance.
 * All dimensions in React Native are unitless, and represent density-independent pixels.
+* A React Native component can only expand to fill available space if its parent has dimensions greater than 0. If a parent does not have either a fixed width and height or flex, the parent will have dimensions of 0 and the flex children will not be visible.
 
 ### August 19, 2019
 * You should always keep your Authorization logic outside of your GraphQL reolvers. Instead, make calls to your business logic layer.
