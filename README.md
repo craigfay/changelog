@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### August 26, 2019
+* In Javascript, The stopPropagation() method of the Event interface prevents further propagation of the current event in the capturing and bubbling phases.
+
 ### August 20, 2019
 * Node.js has a variety of issues with high-performance compression, where increased concurrency, especially on Linux, can lead to [catastrophic memory fragmentation](https://github.com/nodejs/node/issues/8871) and slow performance.
 * All dimensions in React Native are unitless, and represent density-independent pixels.
