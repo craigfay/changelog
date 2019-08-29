@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### August 28, 2019
+* Prisma uses an "application schema" that describes what will be exposed to clients.
+
 ### August 26, 2019
 * In Javascript, The stopPropagation() method of the Event interface prevents further propagation of the current event in the capturing and bubbling phases.
 
