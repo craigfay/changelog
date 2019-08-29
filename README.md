@@ -1,6 +1,10 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### August 29, 2019
+* In Docker, `docker-compose run --rm <service> <command>` will remove the container after it finishes executing the command.
+* In Docker, `docker-compose run <service> <command>` does not automatically publish container ports to the host. Use `-p`
+
 ### August 28, 2019
 * Prisma uses an "application schema" that describes what will be exposed to clients.
 
