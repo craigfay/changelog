@@ -6,6 +6,7 @@ This is a place I've committed to record interesting things I learn about develo
 * In Docker, `docker-compose run <service> <command>` does not automatically publish container ports to the host. Use `-p`
 * In Docker, `docker-compose run --service-ports <service> <command>` will publish the specified service ports to the host.
 * Use `docker build -t <name> .` to build and tag a container from a Dockerfile in the current directory. "Tag" just means that you specify the container name.
+* The `-i` in `docker run -i` is short for "interactive".
 
 ### August 28, 2019
 * Prisma uses an "application schema" that describes what will be exposed to clients.
