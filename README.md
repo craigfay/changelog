@@ -5,6 +5,7 @@ This is a place I've committed to record interesting things I learn about develo
 * In Docker, `docker-compose run --rm <service> <command>` will remove the container after it finishes executing the command.
 * In Docker, `docker-compose run <service> <command>` does not automatically publish container ports to the host. Use `-p`
 * In Docker, `docker-compose run --service-ports <service> <command>` will publish the specified service ports to the host.
+* Use `docker build -t <name> .` to build and tag a container from a Dockerfile in the current directory. "Tag" just means that you specify the container name.
 
 ### August 28, 2019
 * Prisma uses an "application schema" that describes what will be exposed to clients.
