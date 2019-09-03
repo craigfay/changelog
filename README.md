@@ -15,6 +15,7 @@ This is a place I've committed to record interesting things I learn about develo
   * Evaluation Criteria
 * The "Layers API" is Tensorflow's primary interface for building models. The "Estimator API" is a higher level surface area that exposes frameworks for building machine learning algorithms.
 * One level higher, "Canned Estimators" can be thought of as models in a box.
+  * The three estimators provided "Canned" in Tensorflow core are "Linear Regression", "Logistic Regression", and "Deep Neural Network".
 
 ### August 30, 2019
 * Docker may give an error approximating: `cannot find available IPv4 address`. You can fix this with `docker network prune`.
