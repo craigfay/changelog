@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 ### September 3, 2019
 * "ReLU" is an abbreviation for "Rectified Linear Units". ReLU activation functions overcome the vanishing gradient problem, which allows machine learning models to learn faster and perform better.
+* In Chrome, `CMD SHIFT T` re-opens the last tab that was closed.
 
 ### September 2, 2019
 * vJoy is a great Windows specific program for emulating hardware input.
