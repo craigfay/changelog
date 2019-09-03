@@ -7,7 +7,8 @@ This is a place I've committed to record interesting things I learn about develo
 * Tensorflow is not uniquely suited to machine learning, but can be used to define any mathematical computation as a data flow graph.
 * "Tensor" refers to a multidimensional Array.
 * In Tensorflow, the nodes in the graph are operations, and the edges are Tensors.
-* A machine learning algorithm can be divided conceptually into 4 parts:
+* A machine learning algorithm can be divided conceptually into 5 parts:
+  * Training Data
   * Model
   * Cost Function
   * Optimization Objective
