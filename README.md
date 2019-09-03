@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### September 3, 2019
+* "ReLU" is an abbreviation for "Rectified Linear Units". ReLU activation functions overcome the vanishing gradient problem, which allows machine learning models to learn faster and perform better.
+
 ### September 2, 2019
 * vJoy is a great Windows specific program for emulating hardware input.
 * Node's `fs.watch` has several fatal weaknesses. The package [chokidar](https://www.npmjs.com/package/chokidar) is a great substitute.
