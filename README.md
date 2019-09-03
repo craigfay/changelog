@@ -13,6 +13,7 @@ This is a place I've committed to record interesting things I learn about develo
   * Cost Function
   * Optimization Objective
   * Evaluation Criteria
+* The "Layers API" is Tensorflow's primary interface for building models. The "Estimator API" is a higher level surface area that exposes frameworks for building machine learning algorithms.
 
 ### August 30, 2019
 * Docker may give an error approximating: `cannot find available IPv4 address`. You can fix this with `docker network prune`.
