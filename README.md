@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 ### September 2, 2019
 * vJoy is a great Windows specific program for emulating hardware input.
+* Node's `fs.watch` has several fatal weaknesses. The package [chokidar](https://www.npmjs.com/package/chokidar) is a great substitute.
 
 ### August 30, 2019
 * Docker may give an error approximating: `cannot find available IPv4 address`. You can fix this with `docker network prune`.
