@@ -1,6 +1,11 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### September 4, 2019
+* Helpful prequisites for Machine Learning:
+  * Gradient Descent
+  * Linear Regression
+
 ### September 3, 2019
 * "ReLU" is an abbreviation for "Rectified Linear Units". ReLU activation functions overcome the vanishing gradient problem, which allows machine learning models to learn faster and perform better.
 * In Chrome, `CMD SHIFT T` re-opens the last tab that was closed.
