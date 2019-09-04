@@ -7,6 +7,7 @@ This is a place I've committed to record interesting things I learn about develo
   * Linear Regression
 * Feature Columns are the preferred way of defining input to TensorFlow.
 * "One Hot Encoding" is a way of encoding enum-like values with boolean switches.
+* A polynomial expression can only use arithmetic operations and non-negative integer exponents on variables.
 
 ### September 3, 2019
 * "ReLU" is an abbreviation for "Rectified Linear Units". ReLU activation functions overcome the vanishing gradient problem, which allows machine learning models to learn faster and perform better.
