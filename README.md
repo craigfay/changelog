@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### September 6, 2019
+* In Javascript, it's not uncommon to assign `const self = this`. This makes the designated `this` referenceable even when there may be another `this` in a more narrow scope.
+
 ### September 4, 2019
 * Helpful prequisites for Machine Learning:
   * Gradient Descent
