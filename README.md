@@ -4,6 +4,7 @@ This is a place I've committed to record interesting things I learn about develo
 #### September 7, 2019
 * On Linux, the `apt` command is being recommended by distros as an alternative to `apt-get` and `apt-cache`. It's essentiall a wrapper for the afforementioned commands, but with smaller surface area.
 * Starting with docker 0.6.5, you can add -t to the docker run command, which will attach a pseudo-TTY. Then you can type Control-C to detach from the container without terminating it.
+* There are a number of problems with using docker within docker. The preferred method is to invoke the host's docker from within containers to create sibling containers.
 
 ### September 6, 2019
 * In Javascript, it's not uncommon to assign `const self = this`. This makes the designated `this` referenceable even when there may be another `this` in a more narrow scope.
