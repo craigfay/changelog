@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 #### September 7, 2019
 * On Linux, the `apt` command is being recommended by distros as an alternative to `apt-get` and `apt-cache`. It's essentiall a wrapper for the afforementioned commands, but with smaller surface area.
+* When working with Dockerfiles, you'll usually want to build them with `docker build . -t <desiredname>`. Confusingly, `-t` is also useful to run the same container, in the form `docker run <chosenname> -t`, because it lets you kill the container with CTRL + C.
 
 ### September 6, 2019
 * In Javascript, it's not uncommon to assign `const self = this`. This makes the designated `this` referenceable even when there may be another `this` in a more narrow scope.
