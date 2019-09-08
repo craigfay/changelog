@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+#### September 7, 2019
+* On Linux, the `apt` command is being recommended by distros as an alternative to `apt-get` and `apt-cache`. It's essentiall a wrapper for the afforementioned commands, but with smaller surface area.
+
 ### September 6, 2019
 * In Javascript, it's not uncommon to assign `const self = this`. This makes the designated `this` referenceable even when there may be another `this` in a more narrow scope.
 
