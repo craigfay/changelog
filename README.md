@@ -1,7 +1,10 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
-#### September 7, 2019
+### September 8, 2019
+* Facebook uses a PHP component syntax called XHP, which is a wrapper for a library called UIComponent, that features DOM-like classes to construct an HTML tree. It's stylistically similar, and a precursor to React/JSX.
+
+### September 7, 2019
 * On Linux, the `apt` command is being recommended by distros as an alternative to `apt-get` and `apt-cache`. It's essentiall a wrapper for the afforementioned commands, but with smaller surface area.
 * Starting with docker 0.6.5, you can add -t to the docker run command, which will attach a pseudo-TTY. Then you can type Control-C to detach from the container without terminating it.
 * There are a number of problems with using docker within docker. The preferred method is to invoke the host's docker from within containers to create sibling containers.
