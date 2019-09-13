@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 ### September 11, 2019
 * [Js13kGames](https://2019.js13kgames.com) is a JavaScript coding competition for HTML5 Game Developers. The fun part of the compo is the file size limit set to 13 kilobytes. The competition started at 13:00 CEST, 13th August and will end at 13:00 CEST, 13th September 2019. 
+* [Apache Arrow](https://arrow.apache.org/) is a cross-language development platform for in-memory data.
 
 ### September 10, 2019
 * An [erasure code](https://en.wikipedia.org/wiki/Erasure_code) takes a “message,” such as a data file, and makes a longer message in a way that the original can be reconstructed from the longer message even if parts of the longer message have been lost. [Reed-Solomon](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction) is an erasure code with exactly the properties we needed for file storage, and it is simple and straightforward to implement. [Source](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction)
