@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 ### September 10, 2019
 * [Erasure Coding](https://www.backblaze.com/blog/reed-solomon/) describes methods of storing information with additional calculated information, which allows the original information to be recovered in the event of loss.
+* A [Time Series Database](https://www.influxdata.com/time-series-database/) is a database concerned with monitoring time-centric data. A TSDB should support storing high precision data for short periods of time, but necessarily downsample data over longer periods of time.
 
 ### September 8, 2019
 * Facebook uses a PHP component syntax called XHP, which is a wrapper for a library called UIComponent, that features DOM-like classes to construct an HTML tree. It's stylistically similar, and a precursor to React/JSX.
