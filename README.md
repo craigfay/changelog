@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### September 10, 2019
+* [Erasure Coding](https://www.backblaze.com/blog/reed-solomon/) describes methods of storing information with additional calculated information, which allows the original information to be recovered in the event of loss.
+
 ### September 8, 2019
 * Facebook uses a PHP component syntax called XHP, which is a wrapper for a library called UIComponent, that features DOM-like classes to construct an HTML tree. It's stylistically similar, and a precursor to React/JSX.
 * [XHP](https://docs.hhvm.com/hack/XHP/some-basics) allows UI code to be typechecked, and automatically avoids several common issues such as cross-site scripting (XSS) and double-escaping.
