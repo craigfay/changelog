@@ -2,7 +2,7 @@
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
 ### September 10, 2019
-* [Erasure Coding](https://www.backblaze.com/blog/reed-solomon/) describes methods of storing information with additional calculated information, which allows the original information to be recovered in the event of loss.
+* An [erasure code](https://en.wikipedia.org/wiki/Erasure_code) takes a “message,” such as a data file, and makes a longer message in a way that the original can be reconstructed from the longer message even if parts of the longer message have been lost. [Reed-Solomon](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction) is an erasure code with exactly the properties we needed for file storage, and it is simple and straightforward to implement. [Source](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction)
 * A [Time Series Database](https://www.influxdata.com/time-series-database/) is a database concerned with monitoring time-centric data. A TSDB should support storing high precision data for short periods of time, but necessarily downsample data over longer periods of time.
 * [FaunaDB](https://fauna.com/) is recently recognized as a leader in "serverless" data persistence. This means they'll host your database, manage scaling, and provide all the usual web APIs for interacting with it.
 
