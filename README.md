@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### September 14 2019
+* In Bash, `date -r <filename>` will show a file's date modified.
+
 ### September 11, 2019
 * [Js13kGames](https://2019.js13kgames.com) is a JavaScript coding competition for HTML5 Game Developers. The fun part of the compo is the file size limit set to 13 kilobytes. The competition started at 13:00 CEST, 13th August and will end at 13:00 CEST, 13th September 2019. 
 * [Apache Arrow](https://arrow.apache.org/) is a cross-language development platform for in-memory data. There are some very serious advantages to this idea, namely that IO based tasks, along with serialization will be drastically reduced where not eliminated.
