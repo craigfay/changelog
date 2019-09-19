@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 ### September 15, 2019
  * Cabal (Common Architecture for Building Applications and Libraries) is Haskell's package manager.
+ * `cabal sandbox init` will init a new project with a sandbox, which will install packages in the local directory to prevent dependency conflicts.
 
 ### September 14 2019
 * In Bash, `date -r <filename>` will show a file's date modified. You can use [date formatting](https://linux.die.net/man/1/date) as well: `date -r <filename> "+%m-%d-%Y %H:%M:%S"`
