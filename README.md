@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### September 15, 2019
+ * Cabal (Common Architecture for Building Applications and Libraries) is Haskell's package manager.
+
 ### September 14 2019
 * In Bash, `date -r <filename>` will show a file's date modified. You can use [date formatting](https://linux.die.net/man/1/date) as well: `date -r <filename> "+%m-%d-%Y %H:%M:%S"`
 
