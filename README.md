@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 ### September 20, 2019
  * In Node, the entire allocated memory is known as the "resident set".
+ * In Node, use `process.memoryUsage()` to get properties associated with memory usage.
 
 ### September 15, 2019
  * Cabal (Common Architecture for Building Applications and Libraries) is Haskell's package manager.
