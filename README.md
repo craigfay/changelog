@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### September 20, 2019
+ * In Node, the entire allocated memory is known as the "resident set".
+
 ### September 15, 2019
  * Cabal (Common Architecture for Building Applications and Libraries) is Haskell's package manager.
  * `cabal sandbox init` will init a new project with a sandbox, which will install packages in the local directory to prevent dependency conflicts.
