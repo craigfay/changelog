@@ -8,6 +8,7 @@ This is a place I've committed to record interesting things I learn about develo
 * [Base Web] is Uber's React UI Framework/Design System.
 * [Kraken](https://github.com/uber/kraken) is Uber's open source Docker image management workflow.
 * FreeBSD has a concept called "Jails", which is akin to Docker Containers. Although obviously less well known, FreeBSD Jails are generally considered more powerful and mature.
+* When using node inside docker containers, always npm install inside the container, because binaries in node_modules will likely not work inside the container. To make sure your modules don't get into the container, add `node_modules/` to `.dockerignore`.
 
 ### September 20, 2019
  * In Node, the entire allocated memory is known as the "resident set".
