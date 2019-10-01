@@ -9,6 +9,7 @@ This is a place I've committed to record interesting things I learn about develo
 * [Kraken](https://github.com/uber/kraken) is Uber's open source Docker image management workflow.
 * FreeBSD has a concept called "Jails", which is akin to Docker Containers. Although obviously less well known, FreeBSD Jails are generally considered more powerful and mature.
 * When using node inside docker containers, always npm install inside the container, because binaries in node_modules will likely not work inside the container. To make sure your modules don't get into the container, add `node_modules/` to `.dockerignore`.
+* Node docker images have a user called 'node', with very few privileges. In your Dockerfile, use `USER node` after you've done all your commands that require root. This will help protect you from anyone who was able to get access to your node container.
 
 ### September 20, 2019
  * In Node, the entire allocated memory is known as the "resident set".
