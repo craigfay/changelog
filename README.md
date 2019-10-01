@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 ### September 30, 2019
  * Ion is a serialization language created by Amazon. It can have both a binary, and human readable representation.
+* Flatbuffers is a serialization library developed by Google that allows you to access data without unpacking it. This makes it highly memory efficient.
 
 ### September 20, 2019
  * In Node, the entire allocated memory is known as the "resident set".
