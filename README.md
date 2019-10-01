@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### September 30, 2019
+ * Ion is a serialization language created by Amazon. It can have both a binary, and human readable representation.
+
 ### September 20, 2019
  * In Node, the entire allocated memory is known as the "resident set".
  * In Node, use `process.memoryUsage()` to get properties associated with memory usage.
