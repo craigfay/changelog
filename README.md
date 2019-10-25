@@ -1,8 +1,11 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### Oct 24, 2019
+* Docker was originally created by dotCloud, who folded after open sourcing it. 
+
 ### September 30, 2019
- * Ion is a serialization language created by Amazon. It can have both a binary, and human readable representation.
+* Ion is a serialization language created by Amazon. It can have both a binary, and human readable representation.
 * Flatbuffers is a serialization library developed by Google that allows you to access data without unpacking it. This makes it highly memory efficient.
 * [Kenneth Truyers](https://www.kenneth-truyers.net/2016/10/13/git-nosql-database/) has proposed using Git as a database solution. 
 * [Base Web] is Uber's React UI Framework/Design System.
