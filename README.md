@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 ### Oct 28, 2019
 * Full Duplex communication allows signal to travel in two directions. A phone call, video chat, and the WebSockets protocol would all be considered full duplex.
+* Full Duplex can be emulated with techniques like Time-Division Duplexing, or Frequency-Division duplexing, which use only a half duplex communication channel. Frequency-Division duplexing is used in ham radio operation.
 
 ### Oct 24, 2019
 * Docker was originally created by dotCloud, who folded after open sourcing it. 
