@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### Oct 28, 2019
+* Full Duplex communication allows signal to travel in two directions. A phone call, video chat, and the WebSockets protocol would all be considered full duplex.
+
 ### Oct 24, 2019
 * Docker was originally created by dotCloud, who folded after open sourcing it. 
 
