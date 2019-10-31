@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### Oct 31, 2019
+* Use `nvm alias default 12` to set nvm's default version, in this case, 12.
+
 ### Oct 28, 2019
 * Full Duplex communication allows signal to travel in two directions. A phone call, video chat, and the WebSockets protocol would all be considered full duplex.
 * Full Duplex can be emulated with techniques like Time-Division Duplexing, or Frequency-Division duplexing, which use only a half duplex communication channel. Frequency-Division duplexing is used in ham radio operation.
