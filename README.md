@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 ### Nov 1, 2019
 * On Mac/Linux, use `find somefile` to locate a file/directory by name. Use `find somefile -type f` to only include files.
+* Use `git cat-file -p <hash>` to examine a piece of content in the git database, if you know it's hash.
 
 ### Oct 31, 2019
 * Use `nvm alias default 12` to set nvm's default version, in this case, 12.
