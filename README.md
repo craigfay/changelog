@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 ### Nov 3, 2019
 * Rust has special syntax for [Diverging Functions](https://doc.rust-lang.org/1.30.0/book/first-edition/functions.html#diverging-functions), which never return.
+* [Markov Chains](https://brilliant.org/wiki/markov-chains/) are state mathematical systems for modeling probabilistic behavior over time. A Markov chain can be described with a single Stochastic Matrix, and Initialization Vector.
 
 
 ### Nov 1, 2019
