@@ -1,6 +1,10 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### Nov 3, 2019
+* Rust has special syntax for [Diverging Functions](https://doc.rust-lang.org/1.30.0/book/first-edition/functions.html#diverging-functions), which never return.
+
+
 ### Nov 1, 2019
 * On Mac/Linux, use `find somefile` to locate a file/directory by name. Use `find somefile -type f` to only include files.
 * Use `git cat-file -p <hash>` to examine a piece of content in the git database, if you know it's hash.
