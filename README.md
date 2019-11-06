@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 ### Nov 5, 2019
 * BIOS and UEFI are both examples of "Firmware Standards".
+* Once the BIOS runs self test and initialization routines of the hardware, it looks for bootable disks. If it finds one, the control is transferred to its bootloader, which is a 512-byte portion of executable code stored at the disk's beginning.
 
 ### Nov 3, 2019
 * Rust has special syntax for [Diverging Functions](https://doc.rust-lang.org/1.30.0/book/first-edition/functions.html#diverging-functions), which never return.
