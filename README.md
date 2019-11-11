@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### Mov 11, 2019
+* System languages must have two types of strings, allocated and static. This is because Static strings are best suited to living in ROM, which is cheaper materially, and also in regard to power consumption (as compared to RAM).
+
 ### Nov 5, 2019
 * BIOS and UEFI are both examples of "Firmware Standards".
 * Once the BIOS runs self test and initialization routines of the hardware, it looks for bootable disks. If it finds one, the control is transferred to its bootloader, which is a 512-byte portion of executable code stored at the disk's beginning.
