@@ -1,7 +1,10 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
-### Mov 11, 2019
+### Nov 12, 2019
+* In vim, use `:b#` or `:Ex` to return to the file browser from a file.
+
+### Nov 11, 2019
 * System languages must have two types of strings, allocated and static. This is because Static strings are best suited to living in ROM, which is cheaper materially, and also in regard to power consumption (as compared to RAM).
 
 ### Nov 5, 2019
