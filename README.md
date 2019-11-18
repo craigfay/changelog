@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### Nov 18, 2019
+* If you want to create a new file when you are viewing Vim’s file explorer (netrw), simply hit the %. Vim will ask you for a file name, create that file in the currently viewed directory and open a buffer.
+
 ### Nov 12, 2019
 * In vim, use `:b#` or `:Ex` to return to the file browser from a file.
 * [Common Gateway Interface](https://whatis.techtarget.com/definition/common-gateway-interface-CGI) (CGI) is a standard that allows a webserver to pass incoming request data to an application before responding. PHP is an example of a program that might be invoked via CGI.
