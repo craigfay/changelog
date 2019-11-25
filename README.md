@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### Nov 25, 2019
+* The [IndexDB API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) is a performant alternative to Web Storage APIs for storing large amounts of structured data in browsers.
+
 ### Nov 18, 2019
 * If you want to create a new file when you are viewing Vim’s file explorer (netrw), simply hit the %. Vim will ask you for a file name, create that file in the currently viewed directory and open a buffer.
 
