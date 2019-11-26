@@ -4,6 +4,7 @@ This is a place I've committed to record interesting things I learn about develo
 ### Nov 26, 2019
 * [Aspect Oriented Programming](https://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartIII/AspectOrientedProgramming.html) is a programming paradigm in which allows cross-cutting concerns like logging or security to be isolated from other modules.
 * When working with Golang, use `go fmt` to run a formatter against your code.
+* In Golang, use `reflect.TypeOf()` to get the type of a value. This is useful for determining what function signatures should be.
 
 ### Nov 25, 2019
 * The [IndexDB API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) is a performant alternative to Web Storage APIs for storing large amounts of structured data in browsers.
