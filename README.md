@@ -6,6 +6,7 @@ This is a place I've committed to record interesting things I learn about develo
 * When working with Golang, use `go fmt` to run a formatter against your code.
 * In Golang, use `reflect.TypeOf()` to get the type of a value. This is useful for determining what function signatures should be.
 * In Golang, values of a package are only exported if their name is capitalized. Lowercased names within packages are essentially private.
+* In Golang, the short assignment operator, `:=`, is only available within functions. Outside of functions, it's necessary to use the `var` keyword.
 
 ### Nov 25, 2019
 * The [IndexDB API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) is a performant alternative to Web Storage APIs for storing large amounts of structured data in browsers.
