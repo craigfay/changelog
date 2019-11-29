@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+### Nov 29, 2019
+* In Rust, it's almost always preferable to use `&str` in function signatures instead of `&String`, because it will work with both slices and strings.
+
 ### Nov 26, 2019
 * [Aspect Oriented Programming](https://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartIII/AspectOrientedProgramming.html) is a programming paradigm in which allows cross-cutting concerns like logging or security to be isolated from other modules.
 * When working with Golang, use `go fmt` to run a formatter against your code.
