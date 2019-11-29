@@ -9,6 +9,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 * In Rust, `impl` indicates an "Implementation Block", in which methods of a struct are defined.
 * In Rust, methods can take ownership of `self`, borrow it mutably, or borrow it immutably. Perhaps the only realistic use of methods taking ownership of `self` is to prevent the instance from being used after the invocation.
+* Rust's "automatic referencing/dereferencing" feature allows calling methods on struct references. If the compiler didn't imply referencing/dereferencing, the ownership system would make the language much less readable.
 
 ### Nov 26, 2019
 * [Aspect Oriented Programming](https://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartIII/AspectOrientedProgramming.html) is a programming paradigm in which allows cross-cutting concerns like logging or security to be isolated from other modules.
