@@ -6,6 +6,7 @@ This is a place I've committed to record interesting things I learn about develo
 * Ownership, borrowing, and slices are the three features of Rust that ensure memory safety at compile time.
 * The preferred nomenclature for properties of a `struct` in Rust is "fields".
 * In Rust, you cannot store references in a struct without [lifetimes](file:///Users/craigfay/.rustup/toolchains/stable-x86_64-apple-darwin/share/doc/rust/html/book/ch10-00-generics.html)
+* In Rust, `impl` indicates an "Implementation Block", in which methods of a struct are defined.
 
 ### Nov 26, 2019
 * [Aspect Oriented Programming](https://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartIII/AspectOrientedProgramming.html) is a programming paradigm in which allows cross-cutting concerns like logging or security to be isolated from other modules.
