@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 # Dec 2, 2019
 * On Mac/Windows, Docker containers can reference the host ip with `host.docker.internal`. On linux, you must use [other methods](https://nickjanetakis.com/blog/docker-tip-65-get-your-docker-hosts-ip-address-from-in-a-container).
+* Sometimes in docker, you'll get messages that indicate a lack of storage space. Removing dangling volumes and images can usually solve the problem: `docker volume ls -q -f dangling=true`, `docker rmi $(docker images -q -f "dangling=true")`
 
 ### Nov 29, 2019
 * In Rust, it's almost always preferable to use `&str` in function signatures instead of `&String`, because it will work with both slices and strings.
