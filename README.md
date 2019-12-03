@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Dec 2, 2019
+* On Mac/Windows, Docker containers can reference the host ip with `host.docker.internal`. On linux, you must use [other methods](https://nickjanetakis.com/blog/docker-tip-65-get-your-docker-hosts-ip-address-from-in-a-container).
+
 ### Nov 29, 2019
 * In Rust, it's almost always preferable to use `&str` in function signatures instead of `&String`, because it will work with both slices and strings.
 * Ownership, borrowing, and slices are the three features of Rust that ensure memory safety at compile time.
