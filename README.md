@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 # Dec 3, 2019
 * In SQL, you can use the [`RETURNING`](https://www.postgresql.org/docs/11/dml-returning.html) clause to modify selected data, and avoid writing multiple queries.
+* "DDL" is an abbreviation for Data Definition Language, and is used mostly in reference to data persistence systems.
 
 # Dec 2, 2019
 * On Mac/Windows, Docker containers can reference the host ip with `host.docker.internal`. On linux, you must use [other methods](https://nickjanetakis.com/blog/docker-tip-65-get-your-docker-hosts-ip-address-from-in-a-container).
