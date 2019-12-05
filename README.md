@@ -4,6 +4,7 @@ This is a place I've committed to record interesting things I learn about develo
 # Dec 4, 2019
 * When you clone a Git repo that has submodules, you'll have to run `git submodule init`, and `git submodule update` before submodule contents will be present locally.
 * Instead of using the steps listed above, you can clone a repository using `git clone --recurse-submodules` to prepare all submodules and their children.
+* [Where is the source code for bash commands?](https://askubuntu.com/questions/1193743/where-to-find-the-code-for-the-terminal-commands#comment1998655_1193743) - [gnu.org](https://www.gnu.org/software/coreutils/)
 
 # Dec 3, 2019
 * In SQL, you can use the [`RETURNING`](https://www.postgresql.org/docs/11/dml-returning.html) clause to modify selected data, and avoid writing multiple queries.
