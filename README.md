@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Dec 4, 2019
+* When you clone a Git repo that has submodules, you'll have to run `git submodule init`, and `git submodule update` before submodule contents will be present locally.
+
 # Dec 3, 2019
 * In SQL, you can use the [`RETURNING`](https://www.postgresql.org/docs/11/dml-returning.html) clause to modify selected data, and avoid writing multiple queries.
 * "DDL" is an abbreviation for Data Definition Language, and is used mostly in reference to data persistence systems.
