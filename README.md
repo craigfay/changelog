@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Dec 5, 2019
+* In Docker Compose, service environment variables are not available to the Dockerfiles at built time. Instead, you should use the the the [`args` suboption](https://docs.docker.com/compose/compose-file/#args).
+
 # Dec 4, 2019
 * When you clone a Git repo that has submodules, you'll have to run `git submodule init`, and `git submodule update` before submodule contents will be present locally.
 * Instead of using the steps listed above, you can clone a repository using `git clone --recurse-submodules` to prepare all submodules and their children.
