@@ -1,6 +1,10 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Dec 10, 2019
+* When running docker compose in detached mode, you can use `docker-compose logs <container_name>` to see the logs for a specific container. `docker-compose logs` has [additional options](https://dev.to/kbariotis/dont-just-docker-compose-up-gff) to view logs flexibly.
+
+
 # Dec 5, 2019
 * In Docker Compose, service environment variables are not available to the Dockerfiles at built time. Instead, you should use the the the [`args` suboption](https://docs.docker.com/compose/compose-file/#args).
 
