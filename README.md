@@ -5,6 +5,7 @@ This is a place I've committed to record interesting things I learn about develo
 * When running docker compose in detached mode, you can use `docker-compose logs <container_name>` to see the logs for a specific container. `docker-compose logs` has [additional options](https://dev.to/kbariotis/dont-just-docker-compose-up-gff) to view logs flexibly.
 * "IIFE" is an abbreviation in the Javascript space for ["Immediately Invoked Function Expression"](https://en.wikipedia.org/wiki/Immediately_invoked_function_expression)
 * In Javascript, the `void` keyword will force anything after it to be interpreted as an expression.
+* The `ssh-copy-id` command can be used to automatically copy your ssh public key to a host.
 
 # Dec 5, 2019
 * In Docker Compose, service environment variables are not available to the Dockerfiles at built time. Instead, you should use the the the [`args` suboption](https://docs.docker.com/compose/compose-file/#args).
