@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Dec 11, 2019
+* HTML `img` tags have an attribute called [`srcset`](https://html.com/attributes/img-srcset/), which allows you to specify which images to load based on screen size. It's comparable to functionality provided by the `picture` tag, but has wider browser support.
+
 # Dec 10, 2019
 * When running docker compose in detached mode, you can use `docker-compose logs <container_name>` to see the logs for a specific container. `docker-compose logs` has [additional options](https://dev.to/kbariotis/dont-just-docker-compose-up-gff) to view logs flexibly.
 * "IIFE" is an abbreviation in the Javascript space for ["Immediately Invoked Function Expression"](https://en.wikipedia.org/wiki/Immediately_invoked_function_expression)
