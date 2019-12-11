@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Dec 12, 2019
+* When trying to connect to a remote host via ssh, it will not accept your public key if the home directory has permissions that are too liberal. [This can prevent you from using passwordless ssh](https://unix.stackexchange.com/questions/45042/server-does-not-accept-public-key-for-ssh-login-without-password). 
+
 # Dec 11, 2019
 * HTML `img` tags have an attribute called [`srcset`](https://html.com/attributes/img-srcset/), which allows you to specify which images to load based on screen size. It's comparable to functionality provided by the `picture` tag, but has wider browser support.
 
