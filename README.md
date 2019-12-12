@@ -1,6 +1,10 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Dec 13, 2019
+* Google awards better search result rankings to pages that use [AMP](https://amp.dev/documentation/examples/) to display their content.
+* Increasingly, Google also rewards sites for having a minimal visual diff before and after asynchronous content is loaded.
+
 # Dec 12, 2019
 * When trying to connect to a remote host via ssh, it will not accept your public key if the home directory has permissions that are too liberal. [This can prevent you from using passwordless ssh](https://unix.stackexchange.com/questions/45042/server-does-not-accept-public-key-for-ssh-login-without-password). 
 
