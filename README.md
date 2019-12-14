@@ -9,6 +9,7 @@ This is a place I've committed to record interesting things I learn about develo
 * To put a "spin-down" qubit into "spin-up", you can hit it with a pulse of microwaves, at a very specific frequency, depending on the electromagnetic field that the electron is sitting in. This is known as the "resonance frequency" of that electron.
 * Applying these microwave pulses allows you to effectively rotate the electron into different orientations. Another word for rotation is "phase".
 * To read the state of the electron, you'd use the transistor that the atom is embedded next to. If the electron is in "spin-up" when you measure, it can jump to the the transistor, leaving the phosphorous nucleus with a slightly more positive charge. This makes it as if the transistor has been switched on slightly more than it's usually capable.
+* We can also use the nucleus of silicon as a qubit with a very long lifetime. The nucleus itself produces a weak magnetic field with two directions. Depending on the nucleus' orientation (up/down), one of these two directions will determine the resonance frequency of the electron. This means that flipping the nucleus up/down will alternate the electron between receptivity to two distinct microwave pulse frequencies.
 
 # Dec 13, 2019
 * Google awards better search result rankings to pages that use [AMP](https://amp.dev/documentation/examples/) to display their content.
