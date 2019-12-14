@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Dec 15, 2019
+* To be comfortable with quantum algorithms, you must first be comfortable with [matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication), and [tensor products of vectors](https://en.wikipedia.org/wiki/Tensor_product).
+
 # Dec 14, 2019
 * There are several types of physical objects that can be used as qubits for quantum computing, including photons, neutrons, and electrons.
 * Some researchers are currently using the outermost electron of phosphorous atoms as qubits. These electrons act like [bar magnets](https://www.google.com/search?q=bar+magnet), orienting themselves parallel to any magnetic field that they're within. It's helpful to conceptualize them as a needle in a compass, which acts the same way.
