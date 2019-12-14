@@ -4,7 +4,8 @@ This is a place I've committed to record interesting things I learn about develo
 # Dec 14, 2019
 * There are several types of physical objects that can be used as qubits for quantum computing, including photons, neutrons, and electrons.
 * Some researchers are currently using the outermost electron of phosphorous atoms as qubits. These electrons act like [bar magnets](https://www.google.com/search?q=bar+magnet), orienting themselves parallel to any magnetic field that they're within. It's helpful to conceptualize them as a needle in a compass, which acts the same way.
-* In theory, you could turn a compass needle 180 degrees against its natural orientation, and it would be stable. This would be it's highest energy state, and the qubit equivalent is called "spin-up".
+* In theory, you could turn a compass needle 180 degrees against its natural orientation, and it would be stable. This would be it's highest energy state, and the qubit equivalent is called "spin-up". [Source](https://www.youtube.com/watch?v=g_IaVepNDT4)
+* To actually create a measurable qubit, engineers take a single atom, and encase it in a silicon crystal, which is placed next to a tiny transistor. To differentiate the energy state of the atom's electron, you need to apply a strong magnetic field using a [superconducting magnet](https://en.wikipedia.org/wiki/Superconducting_magnet) (basically a large coil of superconducting wire). Introducing the magnet will put the electron in "spin-down". Applying some amount of energy could put the electron in "spin-up", but at room temperature, it would just bounce back and forth between the two orientations. Bringing the temperature very near absolute zero is the way to guarantee that the electron is "spin-down". The surrounding thermal energy is what might cause it to become "spin-up".
 
 # Dec 13, 2019
 * Google awards better search result rankings to pages that use [AMP](https://amp.dev/documentation/examples/) to display their content.
