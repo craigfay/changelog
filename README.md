@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Dec 14, 2019
+* There are several types of physical objects that can be used as qubits for quantum computing, including photons, neutrons, and electrons.
+
 # Dec 13, 2019
 * Google awards better search result rankings to pages that use [AMP](https://amp.dev/documentation/examples/) to display their content.
 * Increasingly, Google also rewards sites for having a minimal visual diff before and after asynchronous content is loaded.
