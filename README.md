@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 # Dec 14, 2019
 * There are several types of physical objects that can be used as qubits for quantum computing, including photons, neutrons, and electrons.
+* Some researchers are currently using the outermost electron of phosphorous atoms as qubits. These electrons act like [bar magnets](https://www.google.com/search?q=bar+magnet), orienting themselves parallel to any magnetic field that they're within. It's helpful to conceptualize them as a needle in a compass, which acts the same way.
 
 # Dec 13, 2019
 * Google awards better search result rankings to pages that use [AMP](https://amp.dev/documentation/examples/) to display their content.
