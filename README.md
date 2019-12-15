@@ -4,7 +4,7 @@ This is a place I've committed to record interesting things I learn about develo
 # Dec 15, 2019
 * To be comfortable with quantum algorithms, you must first be comfortable with [matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication), and [tensor products of vectors](https://en.wikipedia.org/wiki/Tensor_product).
 * We can represent classical bits as vectors [1,0], and [0,1], representing off and on, respectively.
-* We can represent the state of multiple classical bits as the result of their tensor product. [0,1], [1,0], [1,0] (binary 4) can be represented as [0,0,0,0,1,0,0,0].
+* We can represent the state of multiple classical bits as the result of their tensor product. [0,1], [1,0], [1,0] (binary 4) can be represented as [0,0,0,0,1,0,0,0]. The long resulting vector is known as the "product state", and can be factored back into the individual state representation.
 
 # Dec 14, 2019
 * There are several types of physical objects that can be used as qubits for quantum computing, including photons, neutrons, and electrons.
