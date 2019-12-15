@@ -5,6 +5,7 @@ This is a place I've committed to record interesting things I learn about develo
 * To be comfortable with quantum algorithms, you must first be comfortable with [matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication), and [tensor products of vectors](https://en.wikipedia.org/wiki/Tensor_product).
 * We can represent classical bits as vectors [1,0], and [0,1], representing off and on, respectively.
 * We can represent the state of multiple classical bits as the result of their tensor product. [0,1], [1,0], [1,0] (binary 4) can be represented as [0,0,0,0,1,0,0,0]. The long resulting vector is known as the "product state", and can be factored back into the individual state representation.
+* In classical computing, the [NAND gate](https://en.wikipedia.org/wiki/NAND_gate) is the fundamental building block of every logical operation. In quantum computing, the [CNOT gate](https://en.wikipedia.org/wiki/Controlled_NOT_gate) occupies the same role. Technically, the CNOT gate must be paired with the [Toffoli gate](https://en.wikipedia.org/wiki/Toffoli_gate) to achieve some logical functions, but it's still reasonable to compare it to the classical NAND gate.
 
 # Dec 14, 2019
 * There are several types of physical objects that can be used as qubits for quantum computing, including photons, neutrons, and electrons.
