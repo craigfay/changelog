@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Dec 16, 2019
+* Photons make very poor qubits, because they collapse easily.
+
 # Dec 15, 2019
 * To be comfortable with quantum algorithms, you must first be comfortable with [matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication), and [tensor products of vectors](https://en.wikipedia.org/wiki/Tensor_product).
 * We can represent classical bits as vectors [1,0], and [0,1], representing off and on, respectively.
