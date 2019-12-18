@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Dec 18, 2019
+* Docker can be used to [containerize desktop applications](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/). Jessie Fraz's [blog](https://blog.jessfraz.com/) is a wonderful place.
+
 # Dec 16, 2019
 * Photons make very poor qubits, because they collapse easily.
 
