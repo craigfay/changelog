@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Dec 20, 2019
+* Many operating systems have limits on how many simultaneous network connections they can support.
+
 # Dec 18, 2019
 * Docker can be used to [containerize desktop applications](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/). Jessie Fraz's [blog](https://blog.jessfraz.com/) is a wonderful place.
 * `docker cp` can be used to copy files between containers and the host filesystem.
