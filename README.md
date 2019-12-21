@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Dec 21, 2019
+* CRLF stands for "carriage return line feed", and it's used in the HTTP protocol to separate the request line from headers, and headers from the body.
+
 # Dec 20, 2019
 * Many operating systems have limits on how many simultaneous network connections they can support.
 
