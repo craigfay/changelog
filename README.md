@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 # Dec 23, 2019
 * The [Deutsche Oracle](https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm) problem may seem trivial or contrived, but it's important because it was a precursor to [Simon's Algorithm](https://en.wikipedia.org/wiki/Simon%27s_problem), which was a precursor to [Shor's Algorithm](https://en.wikipedia.org/wiki/Simon%27s_problem), which allows us to factor large numbers more efficiently than is possible with classical computing.
+* If the product state of two qubits cannot be factored, they are said to be entangled.
 
 # Dec 21, 2019
 * CRLF stands for "carriage return line feed", and it's used in the HTTP protocol to separate the request line from headers, and headers from the body.
