@@ -6,6 +6,8 @@ This is a place I've committed to record interesting things I learn about develo
 * If the product state of two qubits cannot be factored, they are said to be entangled.
 * When two entangled qubits collapse, they do so together instantaneously. (Faster than the speed of light) To reconcile conflicts with our current Einsteinien model of physics, we have hypothesized that communication cannot exceed the speed of light, but coordination can.
 * There is no way to determine whether an entangled qubit has collapsed without measuring it.
+* In physics, the principle of locality states that an object is directly influenced only by its immediate surroundings. ... Therefore, the principle of locality implies that an event at one point cannot cause a simultaneous result at another point.
+
 
 # Dec 21, 2019
 * CRLF stands for "carriage return line feed", and it's used in the HTTP protocol to separate the request line from headers, and headers from the body.
