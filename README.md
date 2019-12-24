@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Dec 24, 2019
+* Rust doesn't compile directly to machine code. Instead it compiles to [LLVM](https://llvm.org/), and uses LLVM to produce machine code. LLVM can be configured to produce code for a wide range of processors, making it fairly straightforward to cross compile -- meaning to compile code meant for another CPU than where the compiler is running.
+
 # Dec 23, 2019
 * The [Deutsche Oracle](https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm) problem may seem trivial or contrived, but it's important because it was a precursor to [Simon's Algorithm](https://en.wikipedia.org/wiki/Simon%27s_problem), which was a precursor to [Shor's Algorithm](https://en.wikipedia.org/wiki/Simon%27s_problem), which allows us to factor large numbers more efficiently than is possible with classical computing.
 * If the product state of two qubits cannot be factored, they are said to be entangled.
