@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Jan 1, 2019
+* Rust will never automatically create “deep” copies of your data. Therefore, any automatic copying can be assumed to be inexpensive in terms of runtime performance.
+
 # Dec 24, 2019
 * Rust doesn't compile directly to machine code. Instead it compiles to [LLVM](https://llvm.org/), and uses LLVM to produce machine code. LLVM can be configured to produce code for a wide range of processors, making it fairly straightforward to cross compile -- meaning to compile code meant for another CPU than where the compiler is running.
 * UART, USART, RS-232, and I2C are all examples of [Serial Protocols](https://electronics.stackexchange.com/questions/37814/usart-uart-rs232-usb-spi-i2c-ttl-etc-what-are-all-of-these-and-how-do-th), which are used for transmitting data over time. Hardware devices communicate with eachother using these protocols.
