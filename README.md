@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Jan 3, 2019
+* A data race can occur when multiple pointers, some of which have write access, try to access the same data simultaneously without a locking mechanism in place.
+
 # Jan 1, 2019
 * Rust will never automatically create “deep” copies of your data. Therefore, any automatic copying can be assumed to be inexpensive in terms of runtime performance.
 
