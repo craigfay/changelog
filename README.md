@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Jan 14, 2019
+* [FFI](https://en.wikipedia.org/wiki/Foreign_function_interface) is short for Foreign Function Interface, and is used to describe one unit of code invoking another unit of code written in a different language.
+
 # Jan 7, 2019
 * If the docker daemon port is exposed on a host, remote attackers can [easily gain root access](https://stackoverflow.com/questions/43399998/how-does-docker-use-ports-2375-and-4243). `docker -H $your_ip:2375 run -it --rm --privileged -v /:/rootfs --net host --pid host busybox`
 * By default, Docker [bypasses UFW (Uncomplicated Firewall) rules](https://www.mkubaczyk.com/2017/09/05/force-docker-not-bypass-ufw-rules-ubuntu-16-04/).
