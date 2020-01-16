@@ -1,17 +1,21 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
-# Jan 14, 2019
+# Jan 16, 2020
+* Using multiple `COPY` directives in your Dockerfile can allow you to separate your caching into source changes and dependency changes, which speeds up your builds.
+
+
+# Jan 14, 2020
 * [FFI](https://en.wikipedia.org/wiki/Foreign_function_interface) is short for Foreign Function Interface, and is used to describe one unit of code invoking another unit of code written in a different language.
 
-# Jan 7, 2019
+# Jan 7, 2020
 * If the docker daemon port is exposed on a host, remote attackers can [easily gain root access](https://stackoverflow.com/questions/43399998/how-does-docker-use-ports-2375-and-4243). `docker -H $your_ip:2375 run -it --rm --privileged -v /:/rootfs --net host --pid host busybox`
 * By default, Docker [bypasses UFW (Uncomplicated Firewall) rules](https://www.mkubaczyk.com/2017/09/05/force-docker-not-bypass-ufw-rules-ubuntu-16-04/).
 
-# Jan 3, 2019
+# Jan 3, 2020
 * A data race can occur when multiple pointers, some of which have write access, try to access the same data simultaneously without a locking mechanism in place.
 
-# Jan 1, 2019
+# Jan 1, 2020
 * Rust will never automatically create “deep” copies of your data. Therefore, any automatic copying can be assumed to be inexpensive in terms of runtime performance.
 
 # Dec 24, 2019
