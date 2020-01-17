@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 # Jan 17, 2020
 * In vim, use `:sp <filename>` to split the window horizontally, or `:vsp <filename>` for a vertical split. From vim's file explorer, you can just use `v` when your cursor is over a file. This is one of the most helpful commands for multitasking in vim without multiple windows.
+* In vim, use `:! <command>` to run a shell command.
 
 # Jan 16, 2020
 * Using multiple `COPY` directives in your Dockerfile can allow you to separate your caching into source changes and dependency changes, which speeds up your builds.
