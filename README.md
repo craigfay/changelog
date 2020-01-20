@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Jan 20, 2020
+* In vim, use `:%s/search/replace/g` to globally find/replace.
+
 # Jan 17, 2020
 * In vim, use `:sp <filename>` to split the window horizontally, or `:vsp <filename>` for a vertical split. From vim's file explorer, you can just use `v` when your cursor is over a file. This is one of the most helpful commands for multitasking in vim without multiple windows.
 * In vim, use `:! <command>` to run a shell command.
