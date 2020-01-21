@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Jan 21, 2020
+* In Vim, use `:qa` to close all your splits in the current window.
+
 # Jan 20, 2020
 * In vim, use `:%s/search/replace/g` to globally find/replace.
 * In vim, you can use [visual block mode](https://stackoverflow.com/questions/1676632/whats-a-quick-way-to-comment-uncomment-lines-in-vim) to quickly comment/uncomment lines.
