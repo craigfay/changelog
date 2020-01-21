@@ -7,6 +7,7 @@ This is a place I've committed to record interesting things I learn about develo
 * In linear algebra, any vector that is only scaled (a change in amplitude) by multiplication by a matrix, is called an Eigenvector. The amount of scaling is known as the Eigenvalue.
 * The first taught application of Matrix/Vector multiplication is to solve a system of equations.
 * The reason matrix multiplication is used in circuits and electronics is because they can be represented by linear equations, where voltages are the unknown variables.
+* A Markov Matrix has columns that sum to 1, and no negative values.
 
 # Jan 17, 2020
 * In vim, use `:sp <filename>` to split the window horizontally, or `:vsp <filename>` for a vertical split. From vim's file explorer, you can just use `v` when your cursor is over a file. This is one of the most helpful commands for multitasking in vim without multiple windows.
