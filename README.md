@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Jan 22, 2020
+* Oberlin has a concise, but helpful [section](https://www.cs.oberlin.edu/~kuperman/help/vim/home.html) dedicated to Vim tips and tricks.
+
 # Jan 21, 2020
 * In Vim, use `:qa` to close all your splits in the current window.
 
