@@ -4,6 +4,8 @@ This is a place I've committed to record interesting things I learn about develo
 # Jan 23, 2019
 * In vim, use `d0` to delete content to the left of the cursor.
 * Use `git rm --cached <filename>` to remove a file from source control while leaving the file intact.
+* An important use of linear algebra is that it helps us solve linear systems of equations.
+* In linear algebra, the [determinant](https://www.mathsisfun.com/algebra/matrix-determinant.html) of a matrix `A` is notated with `|A|`. Determinants are important for finding the inverse of a matrix.
 
 # Jan 22, 2020
 * Oberlin has a concise, but helpful [section](https://www.cs.oberlin.edu/~kuperman/help/vim/home.html) dedicated to Vim tips and tricks.
