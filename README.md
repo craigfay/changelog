@@ -1,7 +1,10 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
-# Jan 23, 2019
+# Jan 24, 2020
+* The linux filesystem heirarchy is defined by the [Filesystem Hierarchy Standard](http://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard). A helpful summary exists on [AskUbuntu](https://askubuntu.com/questions/138547/how-to-understand-the-ubuntu-file-system-layout/138551#138551).
+
+# Jan 23, 2020
 * In vim, use `d0` to delete content to the left of the cursor.
 * Use `git rm --cached <filename>` to remove a file from source control while leaving the file intact.
 * An important use of linear algebra is that it helps us solve linear systems of equations.
