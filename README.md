@@ -4,7 +4,7 @@ This is a place I've committed to record interesting things I learn about develo
 # Jan 25, 2020
 * All prime numbers are either 1 or 5 above a multiple of 6.
 * [Euler's Totient Function](https://en.wikipedia.org/wiki/Euler%27s_totient_function) gives the count of numbers between 0 and n that are coprime with n.
-* "Relatively Prime" means the same thing as "Coprime".
+* "Relatively Prime" means the same thing as "Coprime"; They describe two numbers that don't share any common factors.
 
 # Jan 24, 2020
 * The linux filesystem heirarchy is defined by the [Filesystem Hierarchy Standard](http://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard). A helpful summary exists on [AskUbuntu](https://askubuntu.com/questions/138547/how-to-understand-the-ubuntu-file-system-layout/138551#138551).
