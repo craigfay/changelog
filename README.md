@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Jan 25, 2020
+* All prime numbers are either 1 or 5 above a multiple of 6.
+
 # Jan 24, 2020
 * The linux filesystem heirarchy is defined by the [Filesystem Hierarchy Standard](http://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard). A helpful summary exists on [AskUbuntu](https://askubuntu.com/questions/138547/how-to-understand-the-ubuntu-file-system-layout/138551#138551).
 * You can get a password into a sudo command in one line like so: `echo <password> | sudo -S <command>`
