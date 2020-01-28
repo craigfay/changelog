@@ -4,6 +4,7 @@ This is a place I've committed to record interesting things I learn about develo
 # Jan 27, 2020
 * One way to express the paradigmatic difference between Node and PHP, is that Node does not separate the application from the server. A negative consequence for Node is that uncaught exceptions can crash both your server/application, because they're both the same process.
 * In Node, the `uncaughtException` event is emitted when an uncaught JavaScript exception bubbles all the way back to the event loop. By default, Node.js handles such exceptions by printing the stack trace to stderr and exiting with code 1, 
+* Matrices (or linear transformations) transform other tensors when multiplied. The [determinant](https://www.youtube.com/watch?v=Ip3X9LOh2dk&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=6) is a figure which represents the factor by which the original tensor will be scaled. Negative determinants indicate a flipping effect, where the basis vectors cross each other to reach their destinations.
 
 # Jan 25, 2020
 * All prime numbers are either 1 or 5 above a multiple of 6.
