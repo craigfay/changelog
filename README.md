@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 # Jan 31, 2020
 * Sometimes docker containers created wit `docker-compose` don't rebuild when you'd expect them to. To hard reset a group of composed containers, use `docker-compose down && docker-compose build`.
+* [PurgeCSS](https://purgecss.com/) is a good way to exclude unused css from your frontend build.
 
 # Jan 27, 2020
 * One way to express the paradigmatic difference between Node and PHP, is that Node does not separate the application from the server. A negative consequence for Node is that uncaught exceptions can crash both your server/application, because they're both the same process.
