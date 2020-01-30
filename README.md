@@ -1,8 +1,10 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
-# Jan 31, 2020
+# Jan 30, 2020
 * Sometimes docker containers created wit `docker-compose` don't rebuild when you'd expect them to. To hard reset a group of composed containers, use `docker-compose down && docker-compose build`.
+*  Vim can be [configured](https://vim.fandom.com/wiki/Set_working_directory_to_the_current_file) to automatically change the working directory when a new file is opened. When working with multiple window splits, this feature is indispensible.
+
 * [PurgeCSS](https://purgecss.com/) is a good way to exclude unused css from your frontend build.
 
 # Jan 27, 2020
