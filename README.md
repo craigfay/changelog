@@ -1,6 +1,10 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Feb 1, 2020
+* [Tritium](https://en.wikipedia.org/wiki/Tritium) is an unstable isotope of Hydrogen, and used in most nuclear weapons. Tritium can become [Helium-3](https://en.wikipedia.org/wiki/Helium-3) through the process of [nuclear decay](https://en.wikipedia.org/wiki/Radioactive_decay).
+* Helium-3 is extremely valuable, because it can be used to generate tremendous power using [nuclear fusion](https://en.wikipedia.org/wiki/Nuclear_fusion).
+
 # Jan 31, 2020
 * Percentages are reversible. 8% of 25 is the same as 25% of 8, and one of them is much easier to calculate mentally.
 
