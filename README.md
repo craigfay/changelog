@@ -4,6 +4,8 @@ This is a place I've committed to record interesting things I learn about develo
 # Feb 1, 2020
 * [Tritium](https://en.wikipedia.org/wiki/Tritium) is an unstable isotope of Hydrogen, and used in most nuclear weapons. Tritium can become [Helium-3](https://en.wikipedia.org/wiki/Helium-3) through the process of [nuclear decay](https://en.wikipedia.org/wiki/Radioactive_decay).
 * Helium-3 is extremely valuable, because it can be used to generate tremendous power using [nuclear fusion](https://en.wikipedia.org/wiki/Nuclear_fusion).
+* Unlike the Earth, Helium-3 is very abundant on the surface of the moon. Within the first several meters, there are over 1,000,000 metric tonnes.
+* Helium-3 has been deposited on the moon by [solar wind](https://en.wikipedia.org/wiki/Solar_wind) and asteroid collisions.
 
 # Jan 31, 2020
 * Percentages are reversible. 8% of 25 is the same as 25% of 8, and one of them is much easier to calculate mentally.
