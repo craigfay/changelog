@@ -6,6 +6,7 @@ This is a place I've committed to record interesting things I learn about develo
 * Helium-3 is extremely valuable, because it can be used to generate tremendous power using [nuclear fusion](https://en.wikipedia.org/wiki/Nuclear_fusion).
 * Unlike the Earth, Helium-3 is very abundant on the surface of the moon. Within the first several meters, there are over 1,000,000 metric tonnes.
 * Helium-3 has been deposited on the moon by [solar wind](https://en.wikipedia.org/wiki/Solar_wind) and asteroid collisions.
+* Some have proposed excavating Helium-3 from the moon by heating up the surface with microwaves. This is very energy inefficient, because the moon isn't a very good conductor of heat. Secondly, the Helium gas would scatter in a way that would make it difficult to capture.
 
 # Jan 31, 2020
 * Percentages are reversible. 8% of 25 is the same as 25% of 8, and one of them is much easier to calculate mentally.
