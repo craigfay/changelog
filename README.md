@@ -3,6 +3,8 @@ This is a place I've committed to record interesting things I learn about develo
 
 # Feb 3, 2020
 *  There's one important distinction between GraphQL queries and mutations, other than the name: While query fields are executed in parallel, mutation fields run in series.
+* All graphql implementations must support two directives: `@include(if: Boolean)` - Only include this field in the result if the argument is true, and
+`@skip(if: Boolean)` - Skip this field if the argument is true.
 
 # Feb 1, 2020
 * [Tritium](https://en.wikipedia.org/wiki/Tritium) is an unstable isotope of Hydrogen, and used in most nuclear weapons. Tritium can become [Helium-3](https://en.wikipedia.org/wiki/Helium-3) through the process of [nuclear decay](https://en.wikipedia.org/wiki/Radioactive_decay).
