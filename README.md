@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Feb 3, 2020
+*  There's one important distinction between GraphQL queries and mutations, other than the name: While query fields are executed in parallel, mutation fields run in series.
+
 # Feb 1, 2020
 * [Tritium](https://en.wikipedia.org/wiki/Tritium) is an unstable isotope of Hydrogen, and used in most nuclear weapons. Tritium can become [Helium-3](https://en.wikipedia.org/wiki/Helium-3) through the process of [nuclear decay](https://en.wikipedia.org/wiki/Radioactive_decay).
 * Helium-3 is extremely valuable, because it can be used to generate tremendous power using [nuclear fusion](https://en.wikipedia.org/wiki/Nuclear_fusion).
