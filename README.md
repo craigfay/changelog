@@ -1,8 +1,11 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Feb 4, 2020
+* In postgres, you can find the total disk size of a database with the command `SELECT pg_size_pretty( pg_database_size('dbname') );`
+
 # Feb 3, 2020
-*  There's one important distinction between GraphQL queries and mutations, other than the name: While query fields are executed in parallel, mutation fields run in series.
+* There's one important distinction between GraphQL queries and mutations, other than the name: While query fields are executed in parallel, mutation fields run in series.
 * All graphql implementations must support two directives: `@include(if: Boolean)` - Only include this field in the result if the argument is true, and
 `@skip(if: Boolean)` - Skip this field if the argument is true.
 * GraphQL supports [Inline Fragments](https://graphql.org/learn/queries/#inline-fragments), which is conceptually similar to pattern matching in logical languages.
