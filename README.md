@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 # Feb 4, 2020
 * In postgres, you can find the total disk size of a database with the command `SELECT pg_size_pretty( pg_database_size('dbname') );`
+* In Rust, the [`Cow`](https://hermanradtke.com/2015/05/29/creating-a-rust-function-that-returns-string-or-str.html) type allows you to abstract away whether a value is owned or borrowed.
 
 # Feb 3, 2020
 * There's one important distinction between GraphQL queries and mutations, other than the name: While query fields are executed in parallel, mutation fields run in series.
