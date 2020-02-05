@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Feb 5, 2020
+* In bash, you can do number comparison using [Arithmetic Expressions](http://mywiki.wooledge.org/ArithmeticExpression). For instance: `echo $((3 < 4 ? 3 : 4))`
+
 # Feb 4, 2020
 * In postgres, you can find the total disk size of a database with the command `SELECT pg_size_pretty( pg_database_size('dbname') );`
 * In Rust, the [`Cow`](https://hermanradtke.com/2015/05/29/creating-a-rust-function-that-returns-string-or-str.html) type allows you to abstract away whether a value is owned or borrowed.
