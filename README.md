@@ -4,6 +4,7 @@ This is a place I've committed to record interesting things I learn about develo
 # Feb 6, 2020
 * Svelte provides four ways of sharing data between components. [props](https://svelte.dev/tutorial/declaring-props), [contexts](https://svelte.dev/tutorial/context-api), [stores](https://svelte.dev/tutorial/writable-stores), and [module scope](https://svelte.dev/docs#script_context_module). They're so robust, that state management other libraries would never be necessary.
 * [objectcomputing.com](https://objectcomputing.com/resources/publications/sett/july-2019-web-dev-simplified-with-svelte) maintains a page of docs on Svelte, which is very effective in organizing and demonstratring its most important features.
+* The markdown spec [created by Aaron Swartz and John Gruber in 2004](developed in 2004 by John Gruber in collaboration with Aaron Swartz) is problematic in it's ambiguity, there have been many interpretations and implementations. [CommonMark](https://commonmark.org) is perhaps the best hope for an evolved markdown resource to be considered canonical.
 
 # Feb 5, 2020
 * In bash, you can do number comparison using [Arithmetic Expressions](http://mywiki.wooledge.org/ArithmeticExpression). For instance: `echo $((3 < 4 ? 3 : 4))`
