@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Feb 6, 2020
+* Svelte provides four ways of sharing data between components. [props](https://svelte.dev/tutorial/declaring-props), [contexts](https://svelte.dev/tutorial/context-api), [stores](https://svelte.dev/tutorial/writable-stores), and [module scope](https://svelte.dev/docs#script_context_module). They're so robust, that state management other libraries would never be necessary.
+
 # Feb 5, 2020
 * In bash, you can do number comparison using [Arithmetic Expressions](http://mywiki.wooledge.org/ArithmeticExpression). For instance: `echo $((3 < 4 ? 3 : 4))`
 
