@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Feb 7, 2020
+* My most common usage of `grep` is `grep -n -r --color [pattern] [files]`. `-r` means recursive search, `-n` means show line numbers, and `--color` highlights matches.
+
 # Feb 6, 2020
 * Svelte provides four ways of sharing data between components. [props](https://svelte.dev/tutorial/declaring-props), [contexts](https://svelte.dev/tutorial/context-api), [stores](https://svelte.dev/tutorial/writable-stores), and [module scope](https://svelte.dev/docs#script_context_module). They're so robust, that state management other libraries would never be necessary.
 * [objectcomputing.com](https://objectcomputing.com/resources/publications/sett/july-2019-web-dev-simplified-with-svelte) maintains a page of docs on Svelte, which is very effective in organizing and demonstratring its most important features.
