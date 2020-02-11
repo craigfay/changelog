@@ -8,6 +8,7 @@ This is a place I've committed to record interesting things I learn about develo
   * Page-Specific Code
   * Shared Application Code
   * Third-Party Modules
+* Ivan Akulov has written an [in-depth guide](https://developers.google.com/web/fundamentals/performance/webpack/use-long-term-caching) to code splitting and caching with webpack.
 
 
 # Feb 7, 2020
