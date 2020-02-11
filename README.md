@@ -11,6 +11,7 @@ This is a place I've committed to record interesting things I learn about develo
 * Ivan Akulov has written an [in-depth guide](https://developers.google.com/web/fundamentals/performance/webpack/use-long-term-caching) to code splitting and caching with webpack.
 * Debugbear's [Performant Frontend Architecture](https://www.debugbear.com/blog/performant-front-end-architecture) is a great starting place for conceptualizing client-side optimization.
 * Node can log arbitrarily deep objects by using `console.dir(value, { depth: null })`.
+* Node and browsers can use `console.table()`  to represent tabular date.
 
 
 # Feb 7, 2020
