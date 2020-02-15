@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Feb 14, 2020
+* Vim can [find/replace](https://www.linux.com/tutorials/vim-tips-basics-search-and-replace/) withing a range of line numbers: `:5,24s/term/newterm`
+
 # Feb 11, 2020
 * When trying to speed up client-side rendering, using [service workers](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker) allow you to intercept requests before they go to the network, and used cached resources instead. That means you can achieve a first paint that’s practically instant.
 * Frontend code splitting has three general types of splits:
