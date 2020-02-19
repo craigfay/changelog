@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Feb 19, 2020
+* The -S (stdin) option causes sudo to read the password from the standard input instead of the terminal device. Usage: `echo <password> | sudo -S <cmd>`
+
 # Feb 14, 2020
 * Vim can [find/replace](https://www.linux.com/tutorials/vim-tips-basics-search-and-replace/) withing a range of line numbers: `:5,24s/term/newterm`
 
