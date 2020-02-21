@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 # Feb 21, 2020
 * In bash, you can [run a command in a background](https://www.maketecheasier.com/run-bash-commands-background-linux/) by ending it with `&`.
+* You can avoid having to manually enter git credentials by setting your username and password in the remote like so: `git remote set-url origin https://username:password@somerepository.git`
 
 # Feb 19, 2020
 * The -S (stdin) option causes sudo to read the password from the standard input instead of the terminal device. Usage: `echo <password> | sudo -S <cmd>`
