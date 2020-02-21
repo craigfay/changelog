@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Feb 21, 2020
+* In bash, you can [run a command in a background](https://www.maketecheasier.com/run-bash-commands-background-linux/) by ending it with `&`.
+
 # Feb 19, 2020
 * The -S (stdin) option causes sudo to read the password from the standard input instead of the terminal device. Usage: `echo <password> | sudo -S <cmd>`
 
