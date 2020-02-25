@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Feb 26, 2020
+* [ABI](https://stackoverflow.com/questions/2171177/what-is-an-application-binary-interface-abi) is an acronym for "Application Binary Interface", which can be thought of as an API that has been compiled to the machine language level. ABI's are important when some piece of code relies on an external binary.
+
 # Feb 25, 2020
 * In general, the most efficient sorting algorithms are O(n * log(n)). The most common implementation is Quick Sort, or a modified Quick Sort.
 * Quick Sort uses [O(log(n)) extra space](https://stackoverflow.com/questions/12573330/why-does-quicksort-use-ologn-extra-space), because of extra stack frames while recursing. Quick Sort uses two recursive calls.
