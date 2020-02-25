@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 # Feb 25, 2020
 * In general, the most efficient sorting algorithms are O(n * log(n)). The most common implementation is Quick Sort, or a modified Quick Sort.
+* Quick Sort uses [O(log(n)) extra space](https://stackoverflow.com/questions/12573330/why-does-quicksort-use-ologn-extra-space), because of extra stack frames while recursing. Quick Sort uses two recursive calls.
 
 # Feb 21, 2020
 * In bash, you can [run a command in a background](https://www.maketecheasier.com/run-bash-commands-background-linux/) by ending it with `&`.
