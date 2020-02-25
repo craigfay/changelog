@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Feb 25, 2020
+* In general, the most efficient sorting algorithms are O(n * log(n)). The most common implementation is Quick Sort, or a modified Quick Sort.
+
 # Feb 21, 2020
 * In bash, you can [run a command in a background](https://www.maketecheasier.com/run-bash-commands-background-linux/) by ending it with `&`.
 * You can avoid having to manually enter git credentials by setting your username and password in the remote like so: `git remote set-url origin https://username:password@somerepository.git`
