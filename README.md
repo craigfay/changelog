@@ -5,6 +5,7 @@ This is a place I've committed to record interesting things I learn about develo
 * In general, the most efficient sorting algorithms are O(n * log(n)). The most common implementation is Quick Sort, or a modified Quick Sort.
 * Quick Sort uses [O(log(n)) extra space](https://stackoverflow.com/questions/12573330/why-does-quicksort-use-ologn-extra-space), because of extra stack frames while recursing. Quick Sort uses two recursive calls.
 * If you're really constrained on space, [Heap Sort](https://www.youtube.com/watch?v=MtQL_ll5KhQ) uses O(n * log(n)) time, and constant space. This makes it a good alternative to Quick Sort in a pinch.
+* Applying the XOR of two equal numbers cancel eachother. This can be used to [find missing binary elements, such as integers, in two lists](https://www.techiedelight.com/find-missing-number-array/).
 
 # Feb 21, 2020
 * In bash, you can [run a command in a background](https://www.maketecheasier.com/run-bash-commands-background-linux/) by ending it with `&`.
