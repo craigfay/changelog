@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 # Mar 3, 2020
 * In Vim, use `H` and `L` to move to the top and bottom of the page. Knowing this, you should never need to move the cursor through the page to start scrolling.
+* In vim, use `20j` to travel down by 20 lines. The same is true of prefixing `k` with a number to travel up.
 
 # Feb 26, 2020
 * [ABI](https://stackoverflow.com/questions/2171177/what-is-an-application-binary-interface-abi) is an acronym for "Application Binary Interface", which can be thought of as an API that has been compiled to the machine language level. ABI's are important when some piece of code relies on an external binary.
