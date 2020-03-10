@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Mar 10, 2020
+* In Vim, you can use `*` to start a search for the word under the cursor in normal mode.
+
 # Mar 3, 2020
 * In Vim, use `H` and `L` to move to the top and bottom of the page. Knowing this, you should never need to move the cursor through the page to start scrolling.
 * In vim, use `20j` to travel down by 20 lines. The same is true of prefixing `k` with a number to travel up.
