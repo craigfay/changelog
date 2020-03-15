@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Mar 15, 2020
+* By default, running unit tests in rust with `cargo test` will suppress console output from functions like `println!()`. To override this behavior, you can use `cargo test -- --nocapture`
+
 # Mar 10, 2020
 * In Vim, you can use `*` to start a search for the word under the cursor in normal mode.
 
