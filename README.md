@@ -5,6 +5,7 @@ This is a place I've committed to record interesting things I learn about develo
 * Libraries written in C are compiled as either **static** or **dynamic** libraries.
 * Static libraries (or "archives") are advantageous when recompiling is unecessary, or when the source code should be obfuscated. They use the `.a` extension on Linux, and `.lib` on Windows.
 * Dynamic (or "shared") libraries are loaded into programs that reference them **during runtime**, but are never compiled into machine code. They have a `.so` extension in Linux, `.dll` extension in Windows, and `.dylib` extension in OSX.
+* C libraries consist of two parts: The binary itself, and a header file. The binary portion of libraries that ship with an OS are typically found in `/usr/lib/`. The binary portion of user created, or "local" library binaries, are typically found in `/usr/local/lib`. Local header files are typically found in `/usr/local/include`, and I'm not sure at the moment where OS default header files live.
 
 # Mar 15, 2020
 * By default, running unit tests in rust with `cargo test` will suppress console output from functions like `println!()`. To override this behavior, you can use `cargo test -- --nocapture`
