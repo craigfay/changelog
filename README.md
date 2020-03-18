@@ -1,6 +1,11 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Mar 17, 2020
+* Libraries written in C are compiled as either **static** or **dynamic** libraries.
+* Static libraries (or "archives") are advantageous when recompiling is unecessary, or when the source code should be obfuscated. They use the `.a` extension on Linux, and `.lib` on Windows.
+* Dynamic (or "shared") libraries are loaded into programs that reference them **during runtime**, but are never compiled into machine code. They have a `.so` extension in Linux, `.dll` extension in Windows, and `.dylib` extension in OSX.
+
 # Mar 15, 2020
 * By default, running unit tests in rust with `cargo test` will suppress console output from functions like `println!()`. To override this behavior, you can use `cargo test -- --nocapture`
 
