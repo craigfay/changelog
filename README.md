@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+Mar 20, 2020
+* [Manim](https://github.com/3b1b/manim) was created by Grant Sanderson of [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw), and is used to create all the animations for the channel.
+
 # Mar 17, 2020
 * Libraries written in C are compiled as either **static** or **dynamic** libraries.
 * Static libraries (or "archives") are advantageous when recompiling is unecessary, or when the source code should be obfuscated. They use the `.a` extension on Linux, and `.lib` on Windows.
