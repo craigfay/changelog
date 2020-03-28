@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Mar 28, 2020
+* For most people, the most helpful way to understand [Numpy](https://numpy.org/) is as a Linear Algebra library. It's the de-facto tool in the Python ecosystem for performing Matrix and Vector calculations, that are especially necessary in Machine Learning.
+
 # Mar 27, 2020
 * To see your linux distribution/version, run `cat /etc/os-release`
 
