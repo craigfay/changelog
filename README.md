@@ -4,6 +4,9 @@ This is a place I've committed to record interesting things I learn about develo
 # Mar 28, 2020
 * For most people, the most helpful way to understand [Numpy](https://numpy.org/) is as a Linear Algebra library. It's the de-facto tool in the Python ecosystem for performing Matrix and Vector calculations, that are especially necessary in Machine Learning.
 * In Linear Algebra, there are rules about what types of vectors/matrices can be subject to operands like multiplication, addition, etc.. Numpy uses a trick called [broadcasting(https://developers.google.com/machine-learning/glossary/#broadcasting) to get around these restrictions.
+* A correlation matrix indicates how each attribute's raw values relate to the other attributes' raw values. A correlation value of 1.0 means perfect positive correlation, -1.0 means perfect negative correlation, and 0.0 means no correlation.
+* [Pandas](https://pandas.pydata.org/) dataframes expose a `.corr()` method for analyzing the dataframe's correlation matrix.
+
 
 # Mar 27, 2020
 * To see your linux distribution/version, run `cat /etc/os-release`
