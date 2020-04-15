@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 # Apr 14, 2020
 * Solving polygon icon problems with SVG is [very approachable](https://uxdesign.cc/star-rating-make-svg-great-again-d4ce4731347e).
+* Git has its own garbage collection, and a [number of ways](https://medium.com/@sangeethkumar.tvm.kpm/cleaning-up-a-git-repo-for-reducing-the-repository-size-d11fa496ba48) of dealing with repository size reduction.
 
 # Mar 28, 2020
 * For most people, the most helpful way to understand [Numpy](https://numpy.org/) is as a Linear Algebra library. It's the de-facto tool in the Python ecosystem for performing Matrix and Vector calculations, that are especially necessary in Machine Learning.
