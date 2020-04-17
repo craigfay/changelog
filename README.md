@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Apr 15, 2020
+* In Javascript, you can use the Bitwise OR operator `|` to convert floating point numbers, or strings to integers. 
+
 # Apr 14, 2020
 * Solving polygon icon problems with SVG is [very approachable](https://uxdesign.cc/star-rating-make-svg-great-again-d4ce4731347e).
 * Git has its own garbage collection, and a [number of ways](https://medium.com/@sangeethkumar.tvm.kpm/cleaning-up-a-git-repo-for-reducing-the-repository-size-d11fa496ba48) of dealing with repository size reduction.
