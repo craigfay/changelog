@@ -2,7 +2,7 @@
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
 # Apr 15, 2020
-* In Javascript, you can use the Bitwise OR operator `|` to convert floating point numbers, or strings to integers. 
+* In Javascript, you can use the Bitwise OR operator `|` to convert floating point numbers, or strings to integers. To do so, you have to perform the operation against zero: `5.66 | 0 == 5`
 
 # Apr 14, 2020
 * Solving polygon icon problems with SVG is [very approachable](https://uxdesign.cc/star-rating-make-svg-great-again-d4ce4731347e).
