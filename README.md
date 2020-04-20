@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Apr 18, 2020
+* In Javascript, you can use the `get` keyword to create properties on an object that are [computed with a function call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get) when you to access them.
+
 # Apr 15, 2020
 * In Javascript, you can use the Bitwise OR operator `|` to convert floating point numbers, or strings to integers. To do so, you have to perform the operation against zero: `5.66 | 0 == 5`
 
