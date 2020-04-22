@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Apr 22, 2020
+* Rehydrating Server Side Rendered clients has [little known, and often misunderstood dangers](https://joshwcomeau.com/react/the-perils-of-rehydration/) .
+
 # Apr 18, 2020
 * In Javascript, you can use the `get` keyword to create properties on an object that are [computed with a function call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get) when you to access them.
 
