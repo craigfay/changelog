@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Apr 24, 2020
+* [Svelte Themer](https://github.com/josefaidt/svelte-themer) is a great way to create multiple themes for a Svelte App.
+
 # Apr 22, 2020
 * Rehydrating Server Side Rendered clients has [little known, and often misunderstood dangers](https://joshwcomeau.com/react/the-perils-of-rehydration/) .
 
