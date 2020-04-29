@@ -5,6 +5,7 @@ This is a place I've committed to record interesting things I learn about develo
 * In vim, use `:tabedit` to open a new tab, and `gt` / `gT` to switch between tabs.
 * Running the command `vim -p filename filename filename` will open multiple files simultaneously in different tabs.
 * In vim, use `:mksession filename.vim` to storage the current window configuration. Open it later with `vim -S filename.vim`
+* Vim's autocompletion function is very powerful. Use `ctrl-n` and `ctrl-p` to autocomplete words, as well as navigate the autocomplet list.  
 
 # Apr 24, 2020
 * [Svelte Themer](https://github.com/josefaidt/svelte-themer) is a great way to create multiple themes for a Svelte App.
