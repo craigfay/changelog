@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# Apr 29, 2020
+* In vim, use `:tabedit` to open a new tab, and `gt` / `gT` to switch between tabs.
+
 # Apr 24, 2020
 * [Svelte Themer](https://github.com/josefaidt/svelte-themer) is a great way to create multiple themes for a Svelte App.
 
