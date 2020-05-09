@@ -3,6 +3,7 @@ This is a place I've committed to record interesting things I learn about develo
 
 # March 9, 2020
 * In Postgres Databases with large amounts of secondary indexes, writing new records can be surprisingly expensive. This can be attributed to Postgres' row level immutability, which creates temporary copies of mutated rows. With high write volume, this becomes especially problematic in databases that are replicated over a network, and high write volumes produce a bandwidth bottleneck.
+* There was a bug in 9.2 that caused database replicas not to mark temporary records as inactive. This meant that queries like `SELECT * FROM users WHERE id = 4;` could return multiple rows. Uber encountered this bug, and faced the threat of completely corrupting their indexes. Because indexes are implemented with B-trees, periodic index rebalancing meant that entire portions of the tree could be corrupted at once.
 
 # Apr 29, 2020
 * In vim, use `:tabedit` to open a new tab, and `gt` / `gT` to switch between tabs.
