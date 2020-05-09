@@ -4,6 +4,8 @@ This is a place I've committed to record interesting things I learn about develo
 # March 9, 2020
 * In Postgres Databases with large amounts of secondary indexes, writing new records can be surprisingly expensive. This can be attributed to Postgres' row level immutability, which creates temporary copies of mutated rows. With high write volume, this becomes especially problematic in databases that are replicated over a network, and high write volumes produce a bandwidth bottleneck.
 * There was a bug in 9.2 that caused database replicas not to mark temporary records as inactive. This meant that queries like `SELECT * FROM users WHERE id = 4;` could return multiple rows. Uber encountered this bug, and faced the threat of completely corrupting their indexes. Because indexes are implemented with B-trees, periodic index rebalancing meant that entire portions of the tree could be corrupted at once.
+* Uber found their solution in the [InnoDB storage engine](http://dev.mysql.com/doc/refman/5.7/en/innodb-storage-engine.html), which mutates rows in place. In InnoDB, all secondary indexes point back to the primary key instead of a `ctid` that indicates disk location, like Postgres. This difference causes secondary index lookups to take an extra step in InnoDB.
+* Another consequence of the above is that when a record changes, Postgres must update every index, even if the mutated column hasn't changed. Furthermore, the replication binary log from InnoDB driven databases will be much more compact than its counterpart in Postgres, the [Write Ahead Log](https://www.postgresql.org/docs/9.0/wal-intro.html).
 
 # Apr 29, 2020
 * In vim, use `:tabedit` to open a new tab, and `gt` / `gT` to switch between tabs.
