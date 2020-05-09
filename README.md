@@ -8,6 +8,7 @@ This is a place I've committed to record interesting things I learn about develo
 * InnoDB is a general purpose storage engine, and the default engine used by MySQL.
 * Another consequence of the above is that when a record changes, Postgres must update every index, even if the mutated column hasn't changed. Furthermore, the replication binary log from InnoDB driven databases will be much more compact than its counterpart in Postgres, the [Write Ahead Log](https://www.postgresql.org/docs/9.0/wal-intro.html).
 * In InnoDB, if an old record needs to be maintained temporarily for [MVCC](multiversion concurrency control) purposes, it is kept in a special area called the [rollback segment](https://dev.mysql.com/doc/refman/5.7/en/innodb-undo-logs.html). This means that [autovacuuming](http://www.postgresql.org/docs/9.2/static/routine-vacuuming.html#AUTOVACUUM) in InnoDB is more effecient. (Postgres has to sweep the entire table, and not just a rollback segment)
+* Uber's long form description of their migration and the technical details can be found on [a blog post](https://eng.uber.com/postgres-to-mysql-migration/).
 
 # Apr 29, 2020
 * In vim, use `:tabedit` to open a new tab, and `gt` / `gT` to switch between tabs.
