@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# March 9, 2020
+* In Postgres Databases with large amounts of secondary indexes, writing new records can be surprisingly expensive. This can be attributed to Postgres' row level immutability, which creates temporary copies of mutated rows. With high write volume, this becomes especially problematic in databases that are replicated over a network, and high write volumes produce a bandwidth bottleneck.
+
 # Apr 29, 2020
 * In vim, use `:tabedit` to open a new tab, and `gt` / `gT` to switch between tabs.
 * Running the command `vim -p filename filename filename` will open multiple files simultaneously in different tabs.
