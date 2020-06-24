@@ -1,6 +1,9 @@
 # About
 This is a place I've committed to record interesting things I learn about development, or want to revisit.
 
+# June 24, 2020
+* [Limit/Offset](https://cra.mr/2011/03/08/building-cursors-for-the-disqus-api/) database pagination is very slow on large datasets, because it requires iterating over the same records every time you want a new "page".
+
 # March 18, 2020
 * To find the process that is using a specific port on MacOS, use `sudo lsof -i tcp:4567`
 
